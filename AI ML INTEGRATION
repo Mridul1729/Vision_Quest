@@ -1,0 +1,68 @@
+## AI/ML Integration
+
+PortSync AI integrates a machine learning-based prediction system to estimate vessel waiting times using port operational data.
+
+### 1. Machine Learning Model
+
+An **XGBoost Regression model** is trained on historical port operational data to predict vessel waiting times.
+
+**Input Features:**
+- `waiting_ships`
+- `available_berths`
+- `active_cranes`
+- `container_count`
+- `ship_size`
+- `port_workload`
+
+**Output:**
+- Predicted vessel waiting time (hours).
+
+### 2. Model Training
+
+The training pipeline is implemented in `model/train_model.py`.
+
+The process involves:
+1. Loading port operational data from `data/port_data.csv`.
+2. Preparing the input features and target variable.
+3. Training the XGBoost regression model.
+4. Saving the trained model for backend inference.
+
+### 3. Backend Integration
+
+The prediction backend is implemented using **FastAPI** in `model/app.py`.
+
+The backend loads the trained model and exposes an API endpoint that allows the frontend to send port operational data and receive predictions.
+
+**API Endpoint:**
+
+`POST /predict`
+
+**Example Response:**
+
+```json
+{
+  "predicted_waiting_time_hours": 13.49,
+  "unit": "hours"
+}
+```
+
+### 4. Model Evaluation
+
+The model achieved a reported Mean Absolute Error (MAE) of **0.73 hours** during evaluation.
+
+MAE measures the average absolute difference between predicted and actual waiting times.
+
+### 5. AI Integration Workflow
+
+1. Port operational data is supplied to the backend.
+2. The input features are passed to the trained XGBoost model.
+3. The model predicts the vessel waiting time.
+4. FastAPI returns the prediction as a JSON response.
+5. The frontend can use this response to display the predicted waiting time.
+
+### 6. Future AI Enhancements
+
+- Integration of real-time port operational data through external APIs.
+- Weather-based waiting-time prediction.
+- Enhanced anomaly detection and congestion alert generation.
+- Improved prediction using additional operational parameters.
