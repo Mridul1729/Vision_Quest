@@ -62,7 +62,7 @@ NumPy
 
 Scikit-learn
 
-Flask/FastAPI (specify the framework actually used)
+FastAPI
 
 Git and GitHub
 
