@@ -1,0 +1,5 @@
+[
+  {"warehouse_id":"W01","name":"Warehouse Alpha","status":"available","capacity":1000,"occupied":620},
+  {"warehouse_id":"W02","name":"Warehouse Beta","status":"available","capacity":800,"occupied":510},
+  {"warehouse_id":"W03","name":"Warehouse Gamma","status":"full","capacity":500,"occupied":500}
+]

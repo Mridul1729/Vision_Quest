@@ -1,0 +1,27 @@
+[
+  {
+    "crane_id": "C01",
+    "status": "active",
+    "berth_id": "B01"
+  },
+  {
+    "crane_id": "C02",
+    "status": "active",
+    "berth_id": "B03"
+  },
+  {
+    "crane_id": "C03",
+    "status": "available",
+    "berth_id": null
+  },
+  {
+    "crane_id": "C04",
+    "status": "active",
+    "berth_id": null
+  },
+  {
+    "crane_id": "C05",
+    "status": "maintenance",
+    "berth_id": null
+  }
+]

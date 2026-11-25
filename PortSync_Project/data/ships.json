@@ -1,0 +1,37 @@
+[
+  {
+    "ship_id": "SHIP001",
+    "name": "MSC Aurora",
+    "size": "large",
+    "container_count": 541,
+    "status": "waiting"
+  },
+  {
+    "ship_id": "SHIP002",
+    "name": "CMA Horizon",
+    "size": "medium",
+    "container_count": 320,
+    "status": "berthed"
+  },
+  {
+    "ship_id": "SHIP003",
+    "name": "Maersk Star",
+    "size": "large",
+    "container_count": 850,
+    "status": "waiting"
+  },
+  {
+    "ship_id": "SHIP004",
+    "name": "Ever Ocean",
+    "size": "small",
+    "container_count": 180,
+    "status": "departing"
+  },
+  {
+    "ship_id": "SHIP005",
+    "name": "Hapag Spirit",
+    "size": "large",
+    "container_count": 620,
+    "status": "waiting"
+  }
+]

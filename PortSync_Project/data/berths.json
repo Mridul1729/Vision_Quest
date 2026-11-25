@@ -1,0 +1,27 @@
+[
+  {
+    "berth_id": "B01",
+    "status": "occupied",
+    "ship_id": "SHIP002"
+  },
+  {
+    "berth_id": "B02",
+    "status": "available",
+    "ship_id": null
+  },
+  {
+    "berth_id": "B03",
+    "status": "occupied",
+    "ship_id": "SHIP004"
+  },
+  {
+    "berth_id": "B04",
+    "status": "available",
+    "ship_id": null
+  },
+  {
+    "berth_id": "B05",
+    "status": "available",
+    "ship_id": null
+  }
+]

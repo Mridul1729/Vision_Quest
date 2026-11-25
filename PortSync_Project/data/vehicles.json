@@ -1,0 +1,7 @@
+[
+  {"vehicle_id":"TRK001","type":"truck","status":"available","location":"yard","capacity":2},
+  {"vehicle_id":"TRK002","type":"truck","status":"busy","location":"B01","capacity":2},
+  {"vehicle_id":"TRK003","type":"truck","status":"available","location":"yard","capacity":1},
+  {"vehicle_id":"TRK004","type":"truck","status":"maintenance","location":"workshop","capacity":2},
+  {"vehicle_id":"TRK005","type":"truck","status":"available","location":"gate","capacity":2}
+]

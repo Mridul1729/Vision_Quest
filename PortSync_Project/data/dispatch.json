@@ -1,0 +1,6 @@
+[
+  {"dispatch_id":"DSP001","mode":"rail","destination":"Delhi ICD","status":"scheduled","container_count":20},
+  {"dispatch_id":"DSP002","mode":"road","destination":"Gurugram","status":"in_transit","container_count":12},
+  {"dispatch_id":"DSP003","mode":"rail","destination":"Rewari","status":"waiting","container_count":15},
+  {"dispatch_id":"DSP004","mode":"road","destination":"Noida","status":"scheduled","container_count":8}
+]

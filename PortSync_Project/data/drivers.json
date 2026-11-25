@@ -1,0 +1,7 @@
+[
+  {"driver_id":"DRV001","name":"Driver 01","status":"available","duty_hours":4},
+  {"driver_id":"DRV002","name":"Driver 02","status":"on_trip","duty_hours":6},
+  {"driver_id":"DRV003","name":"Driver 03","status":"available","duty_hours":2},
+  {"driver_id":"DRV004","name":"Driver 04","status":"off_duty","duty_hours":8},
+  {"driver_id":"DRV005","name":"Driver 05","status":"available","duty_hours":3}
+]

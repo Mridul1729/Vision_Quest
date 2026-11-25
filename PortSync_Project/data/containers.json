@@ -1,0 +1,32 @@
+[
+  {
+    "container_id": "CNT001",
+    "ship_id": "SHIP001",
+    "status": "waiting"
+  },
+  {
+    "container_id": "CNT002",
+    "ship_id": "SHIP001",
+    "status": "waiting"
+  },
+  {
+    "container_id": "CNT003",
+    "ship_id": "SHIP002",
+    "status": "loading"
+  },
+  {
+    "container_id": "CNT004",
+    "ship_id": "SHIP002",
+    "status": "loading"
+  },
+  {
+    "container_id": "CNT005",
+    "ship_id": "SHIP003",
+    "status": "waiting"
+  },
+  {
+    "container_id": "CNT006",
+    "ship_id": "SHIP003",
+    "status": "waiting"
+  }
+]
